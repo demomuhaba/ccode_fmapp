@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo:*)",
+      "Bash(npx:*)",
+      "Bash(curl:*)",
+      "Bash(dart scripts/verify_database_schema.dart:*)",
+      "Bash(dart run:*)",
+      "Bash(cp:*)",
+      "Bash(flutter:*)",
+      "Bash(dart analyze:*)",
+      "Bash(dart test:*)",
+      "Bash(rm:*)",
+      "Bash(java:*)",
+      "Bash(ls:*)",
+      "Bash(code:*)",
+      "Bash(/opt/android-studio/jbr/bin/java -version)",
+      "Bash(export:*)",
+      "Bash(wget:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(./gradlew:*)",
+      "Bash(mv:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "GitHub",
+    "context7",
+    "memory",
+    "windows-cli",
+    "playwright",
+    "desktop-commander",
+    "supabase"
+  ]
+}
